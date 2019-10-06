@@ -1,0 +1,197 @@
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    background-image: url("OG11\ \(2\).jpg");
+    background-repeat:
+    width: auto;
+    color: white;
+    }
+  .section {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+.profile-img{
+  width: 100%
+  position: relative;
+  padding: 0%;
+  margin: 0%;
+  }
+  .main-menu{
+  position:absolute;
+  display: block;
+   list-style-type: none;
+  top: 19%;
+  margin-left:0%;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  /*z-index: 100;*/}
+  
+  .main-menu a {
+  display: inline-block;
+   list-style-type: none;
+  background: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: orange;
+  text-shadow:2px  1px black;
+          }
+  .main-menu a:hover,
+  .main-menu a:focus,
+  .main-menu a.active {
+  border-bottom: 6px solid white;
+          }
+  ul {
+    list-style-type: none;
+    }
+  
+  #main-content{
+  width: 100%;
+  height: 60%;
+   } 
+          
+   .content{
+        width: 100%;
+        height: 42%;
+          }  
+        .restaurantimg{
+        width: 90%;
+        height: 50%;
+        padding-top: 7%;
+            }  
+        .righttext h2,.righttext p{
+        width: 90%;
+        height:50%;
+        margin-right: 5%;
+        margin-top: 0%;
+        float: right;
+        padding-top: 7%; 
+        } 
+        
+  .team{
+  width: 100%;
+  height: 60%;
+  padding-top: 5%;
+  }
+  .kitchen{
+  width: 98%;
+  height: 60%;
+  margin-left: 0%;
+  }
+  .lefttext{
+  width: 90%;
+  height: 50%;
+  margin-top:%;
+  padding-left: 6%;
+  }
+       .gallerytitle h1{
+        margin-top: 5%;
+        text-align: center;
+        letter-spacing: 5px; 
+        padding-top: 5%;
+         }
+.gallerytitle1 h1{
+ text-align: center;
+letter-spacing: 5px; 
+padding-top: 5%;   
+         }
+        .gallery {
+        margin-top: 0%;
+        border: 1px solid #ccc;
+        display: block;
+        width:auto;
+        height: 30%;
+        padding:15%;
+        border-bottom: 3px solid gold ;
+         }
+                  
+        .gallery:hover {
+        border: 1px solid #777;
+         }
+                  
+        .gallery img {
+        width: 100%;
+        height: auto;
+          }
+                  
+        .desc {
+        padding: 15px;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+          }
+  
+.booking {
+padding-bottom: 7%;
+  }  
+  .booking h1{
+  padding-top: 5%;
+   margin-left: 10%;
+  font-size:22px;            
+  }
+                         
+              
+  form{
+  margin-left: 10%;
+  margin-top: 0%;
+  font-size: 16px;
+  }
+   .booking input{
+  border: 2px solid; 
+  border-radius:15px;
+  width: 55%;
+  height:25px;  
+  font-size: 16px; 
+      }
+  .booking textarea{
+  font-size: 16px;
+  border-radius: 15px;
+                  } 
+  .openhours{
+  float: left;
+  margin-left: 10%;
+  text-shadow:1px  1px black;
+  }            
+  .section-feature-3 {
+   background-color: #C8C6FA;
+   width:100%;
+  }
+  footer {
+  height: 70%;
+  width: 100%;
+  }
+  
+  .social-menu {
+    width: 60%;
+  margin-top: -5%;
+  margin-left: 0%;
+   }
+              
+  .social-menu img{
+  width: 17%;
+  height: 17%;
+  padding-top:7%;
+   }
+  
+  .contacts{
+  height: 40%;
+  width: 100%;
+  margin-left: 7%;
+  margin-top: 7%;
+  }
+  .contact h2, .contact h3,{
+    font-size: 20px;
+    font-weight: 400;
+    overflow: auto;}
+  
+    .contact p,.openhours{
+    font-size: 16px;
+    font-weight: 600;
+    }
